@@ -1,0 +1,212 @@
+/* montserat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* utility class start */
+
+.title::after{
+    content: '';
+    background-color: #7b1789;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(20px);
+}
+.btn-service{
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+
+}
+/* utility class end */
+/* navbar */
+.navbar {
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+}
+.navbar-brand img{
+    height: 45px;
+}
+.navbar-nav li {
+    padding: 0 14px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 16px;
+}
+.fa-bars {
+    font-size: 22px;
+    color: #fff !important;
+}
+/* hero start */
+.hero {
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    padding-top: 5%;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+
+}
+.hero .play-btn {
+    width: 45px;
+    margin: 20px;
+}
+.hero a {
+    text-decoration: none;
+    color: #fff;
+}
+.bottom-img {
+    width: 100%;
+}
+/* hero end */
+.service {
+    padding: 80px 0;
+}
+.service h2 {
+    margin-bottom: 80px !important;
+    font-weight: 600;
+}
+.card{
+    transition: all .3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0 0 20px 8px rgb(0, 0, 0, 0.2);
+}
+.card img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+.card-body h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.service .service-btn {
+    text-align: center;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+}
+/* about section start */
+.about {
+    background-color: #F8F9FA;
+    padding: 4.2rem 0;
+    
+}
+.about h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.about .about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.about ul li {
+    line-height: 2.5rem;
+}
+/* about section end */
+/* testimonial start */
+.testimonial {
+    margin: 80px 0;
+}
+.testimonial h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.testimonial-content{
+    border-left: 4px solid #7b1789;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial-content img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.testimonial-content .author {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.testimonial-content .co-founder {
+    font-size: 12px;
+    font-weight: 200;
+}
+/* testimonial end */
+/* social media start */
+.social-media {
+    background-color: #F8F9FA;
+    padding: 80px 0;
+}
+.social-media h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.social-media .social-icons a img {
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: all .5s ease-in-out;
+}
+.social-media .social-icons a:hover img {
+    transform: translateY(-10px);
+}
+/* social media end */
+
+/* footer start */
+.footer {
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    color: #fff;
+    overflow-x: hidden;
+}
+.footer-img {
+    width: 100%;
+}
+.footer-box {
+    padding:20px;
+}
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fas {
+    margin-right: 8px;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+}
+.footer-box button {
+    background-image: linear-gradient(to right , #a517ba, #5f1782); 
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.footer-box button:hover {
+    color: #fff;
+}
+.footer-box .form-control {
+    border: none;
+    box-shadow: none;
+    max-width: 250px;
+}
